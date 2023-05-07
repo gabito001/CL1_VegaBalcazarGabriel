@@ -14,7 +14,7 @@ import lombok.Data;
 @Table(name = "Especialidad")
 public class Especialidad {
 	@Id
-	private Integer idesp;
+	private String idesp;
 	@Column(name = "nomesp")
 	private String nomesp ;
 	@Column(name = "costo")
